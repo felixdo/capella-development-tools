@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Validationgen
+Bundle-SymbolicName: validationgendoc;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.polarsys.capella.tools.validationdocgen.ValidationdocgenActivator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.emf.validation;bundle-version="1.4.0",
+ com.google.guava
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .,
+ lib/ST-4.0.8.jar

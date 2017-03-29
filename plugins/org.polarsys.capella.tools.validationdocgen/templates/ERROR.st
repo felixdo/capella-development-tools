@@ -1,0 +1,1 @@
+ERROR() ::= "<img src=\"/help/topic/org.polarsys.capella.validation.doc/html/Images/error.gif\"/>"
